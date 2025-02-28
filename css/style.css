@@ -62,5 +62,30 @@ h2 {
     height: auto;
     margin-top: 5%;
 }
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+    .container {
+        width: 85%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    input[type="text"] {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}
 
 
