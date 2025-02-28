@@ -87,5 +87,30 @@ h2 {
         font-size: 16px;
     }
 }
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    input[type="text"] {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+}
 
 
