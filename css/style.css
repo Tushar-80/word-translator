@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./img/bgimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
