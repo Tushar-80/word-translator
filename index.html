@@ -13,6 +13,42 @@
             <button onclick="dowork()">Translate</button>
             <h2 id="translation"></h2>
         </center>
+        <script>
+            const englishToMarathi = {
+                "mathematics":"गणित",
+                "computer":"संगणक",
+                "index":"निर्देशांक",
+                "notebook":"वही ",
+                "project":"प्रकल्प ",
+                "hi": "हाय",
+                "hello": "नमस्कार",
+                "good": "चांगले ",
+                "bad": " वाईट",
+                "status": "स्थिती ",
+                "good morning": "शुभ सकाळ ",
+                "good afternoon": "शुभ दुपार ",
+                "good night": "शुभ रात्री ",
+                "thank you": "धन्यवाद ",
+                "goal": "ध्येय ",
+                "school": "शाळा ",
+                "book": " पुस्तक",
+                "flower": " फूल",
+                "science": "विज्ञान ",
+            };
+    
+            function dowork() {
+                const wordElement = document.getElementById("word");
+                const translationElement = document.getElementById("translation");
+                const word  = wordElement.value.toLowerCase();
+                const translation = englishToMarathi[word];
+    
+                if (translation) {
+                    translationElement.innerText = `${word} in Marathi is ${translation}`;
+                } else {
+                    translationElement.innerText = `Translation Not Found for ${word}`;
+                }
+            }
+        </script>
     </div>
 </body>
 </html>
