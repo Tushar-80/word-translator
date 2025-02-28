@@ -42,3 +42,9 @@ button {
 button:hover {
     background-color: #45a049;
 }
+h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    font-weight: normal;
+}
