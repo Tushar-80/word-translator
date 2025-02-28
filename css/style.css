@@ -11,3 +11,7 @@ body {
     margin: 0;
     flex-direction: column;
 }
+h1 {
+    color: hsl(0, 93%, 61%);
+    margin-bottom: 20px;
+}
