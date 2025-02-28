@@ -112,5 +112,10 @@ h2 {
         font-size: 14px;
     }
 }
-
-
+/* Adjust the input and button for extra small screens */
+@media (max-width: 360px) {
+    input[type="text"], button {
+        width: 100%;
+        font-size: 14px;
+    }
+}
